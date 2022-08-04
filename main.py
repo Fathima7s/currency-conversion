@@ -21,6 +21,7 @@ variable2 = tk.StringVar(root)
 variable1.set("Currency")
 variable2.set("Currency")
 
+# Function for converting a currency unit to another using the latest rate
 
 def RealTimeCurrencyConversion():
     from forex_python.converter import CurrencyRates
